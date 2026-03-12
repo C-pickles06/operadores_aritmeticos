@@ -1,13 +1,13 @@
 <?php 
-echo "Ingresa un numero";
+echo "Ingresa un numero \n";
 $a=readline();
-echo "Ingresa otro numero";
+echo "Ingresa otro numero \n";
 $b=readline();
-echo "Ingresa un operador";
+echo "Ingresa un operador \n";
 $operador=readline();
 
 if ($operador == "+"){
-echo$sum = $a + $b;
+echo "".$sum = $a + $b;
 }elseif($operador == "-"){
 echo $rest = $a - $b;
 }elseif($operador == "*"){
