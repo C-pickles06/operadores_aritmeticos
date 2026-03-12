@@ -7,14 +7,14 @@ echo "Ingresa un operador \n";
 $operador=readline();
 
 if ($operador == "+"){
-echo "".$sum = $a + $b;
+echo "La suma es igual: ".$sum = $a + $b;
 }elseif($operador == "-"){
-echo $rest = $a - $b;
+echo "La resta es igual: "$rest = $a - $b;
 }elseif($operador == "*"){
-echo $mul = $a * $b;
+echo "La multiplicacion es igual: "$mul = $a * $b;
 }elseif($operador == "/"){
-echo $div = $a / $b;
+echo "La division es igual: "$div = $a / $b;
 }elseif($operador == "%"){
-echo $mod = $a % $b;
+echo "El residuo es: "$mod = $a % $b;
 }
 ?>
